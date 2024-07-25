@@ -16,7 +16,7 @@ This module uses OCR technology to extract text information such as knowledge, d
 ### 3.2 Text preprocessing module
 This module is responsible for preprocessing the extracted text, reducing the noise of the text, and reducing the volume of the data. Text normalization, noise elimination, stopping words removal, specific text replacement and other methods are carried out to generate text that is more in line with the requirements of question and answer generation.
 ### 3.3 Text slicing module
-This module is responsible for slicing text and generating text fragments for generating questions and answers. According to the requirement of question and answer generation, we use dynamic programming algorithm, slice length rule and text structure rule to generate text slice files with different length and semantic characteristics.
+This module is responsible for slicing text and generating text fragments for generating questions and answers. According to the requirement of question and answer generation, we use dynamic programming algorithm, slice length rule and text structure rule to generate text slice files with different length and semantic characteristics.  
 <img width="488" alt="image" src="https://github.com/user-attachments/assets/754f6282-cf42-4f2b-a10a-b5ba067c0cb2">
 ### 3.4 Prompt setup module
 This module is used to manage the Prompt used to generate questions. The module contains the parameters used to invoke the large model, sample questions, and text input.  
